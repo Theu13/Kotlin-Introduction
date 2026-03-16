@@ -43,10 +43,89 @@ fun main() {
 
 
     // --- Operators ---
-    println("--- Operators ---")
+//    println("--- Operators ---")
+//
+//    println("Arithmetic: ")
+//    println("Y = 3 and X = 5")
+//    val x = 5
+//    val y = 3
+//
+//    println("Y + X = ${x + y}")
+//    println("Y - X = ${x - y}")
+//    println("Y * X = ${x * y}")
+//    println("Y / X = ${x / y}")
+//    println("Y % X = ${x % y}")
+//    println("Priority: ")
+//    println("3 + 5 * 2 = ${ 3 + 5 * 2}")
+//    println("(3 + 5) * 2 = ${ (3 + 5) * 2}")
+//
+//    println("Assignment: ")
+//    var result = 2
+//
+//    result += 2
+//    println("result +=: $result")
+//    result -= 2
+//    println("result -=: $result")
+//    result *= 2
+//    println("result *=: $result")
+//    result /= 2
+//    println("result /=: $result")
+//    result %= 2
+//    println("result %=: $result")
 
 
+//    println("Comparison: ")
+//    val isActive = true
+//    if (isActive == true) {
+//        println("Active | equal to: ==")
+//    }
+//
+//    var x = 5
+//    var y = 4
+//    var z = 3
+//
+//    if (x != y) {
+//        println("X is different from y")
+//    }
+//    if (x > y) {
+//        println("X is greater than y")
+//    }
+//    if (z < y) {
+//        println("Z is less than y")
+//    }
+//    if (x >= z) {
+//        println("X is greater or equal to z")
+//    }
+//    if (z <= y) {
+//        println("Z is less or equal to y")
+//    }
 
+//
+//    println("Conditional operations: ")
+//    var a = 5
+//    var b = 3
+//    var c = 6
+//    if (a >= 4 && c >= 4) {
+//        println("&&: A and C is more or equal than 4")
+//    }
+//    if (a >= 4 || b <= 4) {
+//        println("||: A is more or equal than 4 or B is less or equal than 4")
+//    }
+//
+//    var isTrue = false
+//    if (!isTrue) {
+//        println("isTrue = false, but !isTrue is true!")
+//    }
+
+
+//    println("Increment and Decrement")
+//    var a = 3
+//    println("A = $a")
+//    a++
+//        println("A++ = $a")
+//    print("A = $a\n")
+//    a--
+//    println("A-- = $a")
 
 
 
