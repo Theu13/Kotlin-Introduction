@@ -206,27 +206,22 @@ fun main() {
 //        println(i)
 //    }
 //    for (i in 1..10) {
-//        if (i == 5) continue
+//        if (i == 5) continue // Cancel everything below and return to the iteration
 //        println(i)
 //    }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    sayHello("Jota", 22)
+    sum(3, 6)
 
 }
+
+fun sayHello(name: String, age: Int) {
+    println("Hello $name, you age is $age!")
+}
+
+fun sum(a: Int, b: Int)  {
+    println(a+b)
+}
+
