@@ -10,15 +10,15 @@ fun main() {
     val userName2: String = "Jao" // unique variable, not changeable
 
     // Integer type
-    val age = 22
-    val integerMaxValue = Int.MAX_VALUE
-    val integerMinValue = Int.MIN_VALUE
-
-    val byteMaxValue = Byte.MAX_VALUE
-    val byteMinValue = Byte.MIN_VALUE
-
-    val longMaxValue = Long.MAX_VALUE
-    val longMinValue = Long.MIN_VALUE
+//    val age = 22
+//    val integerMaxValue = Int.MAX_VALUE
+//    val integerMinValue = Int.MIN_VALUE
+//
+//    val byteMaxValue = Byte.MAX_VALUE
+//    val byteMinValue = Byte.MIN_VALUE
+//
+//    val longMaxValue = Long.MAX_VALUE
+//    val longMinValue = Long.MIN_VALUE
 
     //println("This is a String: $userName. This is an int: $age\n")
 
@@ -126,6 +126,100 @@ fun main() {
 //    print("A = $a\n")
 //    a--
 //    println("A-- = $a")
+
+
+//    println("if and else:")
+//    //IF
+//    var height = 180
+//    if (height >= 170) {
+//        println("Tall")
+//    } else {
+//        println("Not tall")
+//    }
+//
+//    //IF and Else
+//    var grade = 7
+//    if (grade >= 9) {
+//        println("Excellent")
+//    } else if (grade >= 7) {
+//        println("Approved")
+//    } else if (grade >= 5) {
+//        println("Recovery")
+//    } else {
+//        println("Not approved")
+//    }
+//
+//    val connection = 10
+//    val status = if (connection >= 8) "Great" else "Bad"
+//    println(status)
+
+//    println("Loop When = Switch")
+//    val day = 3
+//    when (day) {
+//        1 -> println("Moonday")
+//        2 -> println("Tuesday")
+//        3 -> println("Wednesday")
+//        4 -> println("Thursday")
+//        5 -> println("Friday")
+//        6 -> println("Saturday")
+//        7 -> println("Sunday")
+//    }
+//
+//    println("While")
+//    var i = 1
+//    while (i <= 5) {
+//        println(i)
+//        i++
+//    }
+//
+//
+//    println("Do While")
+//    var o = 1
+//    do {
+//        println(o)
+//        o++
+//    } while (o <= 5)
+//
+//    println("For")
+//    for (i in 1..7) {
+//        println(i)
+//    }
+//
+//    println("For | until: excludes the last one ")
+//    for (i in 1 until 5) {
+//        println(i)
+//    }
+//
+//    println("For | downTo: regressive")
+//    for (i in 5 downTo 1) {
+//        println(i)
+//    }
+//
+//    print("For | Step: number for jump")
+//    for (i in 1..10 step 2) {
+//        println(i)
+//    }
+//
+//    print("Flow controller: Break and Continue")
+//    for (i in 1..10) {
+//        if (i == 5) break
+//        println(i)
+//    }
+//    for (i in 1..10) {
+//        if (i == 5) continue
+//        println(i)
+//    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
