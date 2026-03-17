@@ -212,16 +212,36 @@ fun main() {
 
 
 
-    sayHello("Jota", 22)
-    sum(3, 6)
+//    sayHello("Jota", 22)
+//    sum(3, 6)
+
+//
+//    println("Arrays")
+//    //val names: Array<String> = arrayOf("Jota", "Megan", "Marcos")
+//    val names= arrayOf("Jota", "Megan", "Marcos")
+//    val mixedElements = arrayOf(4, 6, 3, 5, 7, 9, 3, 6, "sabado", 3.51, 'M')
+//
+//    names[0] = "Bato"
+//    println("First Element: ${names[1]}")
+//    println("The size of the array is: ${names.size}")
+//
+//    for (i in mixedElements) {
+//        if (i is String) {
+//            println(i)
+//        }
+//    }
+
+
+
+
 
 }
 
-fun sayHello(name: String, age: Int) {
-    println("Hello $name, you age is $age!")
-}
-
-fun sum(a: Int, b: Int)  {
-    println(a+b)
-}
+//fun sayHello(name: String, age: Int) {
+//    println("Hello $name, you age is $age!")
+//}
+//
+//fun sum(a: Int, b: Int)  {
+//    println(a+b)
+//}
 
