@@ -1,6 +1,7 @@
 
 fun main() {
 
+
     // --- Variables ---
     //println("--- Variables ---")
 
@@ -231,8 +232,38 @@ fun main() {
 //        }
 //    }
 
+//    val max = findMax(arrayOf(3,5,7,3,2,6,4))
+//    val min = findMin(arrayOf(3,5,7,3,2,6,4))
+//
+//    println("Max value = $max")
+//    println("Min value = $min")
+
+//    val max = findMinAndMax(arrayOf(10,20,30,40,50), true)
+//    println("The max value = $max")
+//    val min = findMinAndMax(arrayOf(10,20,30,40,50), false)
+//    println("The max value = $min")
+
+//    val numbers = arrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+//
+//    println("Max numbers = ${numbers.max()}")
+//    println("Min numbers = ${numbers.min()}")
+//    println("Sum of numbers = ${numbers.sum()}")
+//    println("Average of numbers = ${numbers.average()}")
+//    println("Sorted list of numbers = ${numbers.sorted()}")
+//    println("Contains number 7? ${numbers.contains(7)}")
+//
+//    for (number in numbers) {
+//        println(number)
+//    }
 
 
+
+
+
+    println("--- OOP ---")
+    //cars()
+    //people()
+    calcul()
 
 
 }
@@ -245,3 +276,41 @@ fun main() {
 //    println(a+b)
 //}
 
+//fun findMax( numbers: Array<Int>): Int {
+//    var max = numbers[0]
+//    for (number in numbers) {
+//        if (number > max) {
+//            max = number
+//        }
+//    }
+//    return max
+//}
+//fun findMin( numbers: Array<Int>): Int {
+//    var min = numbers[0]
+//    for (number in numbers) {
+//        if (number < min) {
+//            min = number
+//        }
+//    }
+//    return min
+//}
+
+//fun findMinAndMax(numbers: Array<Int>, searchMax: Boolean): Int {
+//    var max = numbers[0]
+//    var min = max
+//    if (searchMax) {
+//        for (number in numbers) {
+//            if (number > max) {
+//                max = number
+//            }
+//        }
+//        return max
+//    } else {
+//        for (number in numbers) {
+//            if (number < min) {
+//                min = number
+//            }
+//        }
+//        return min
+//    }
+//}
